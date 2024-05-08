@@ -251,9 +251,9 @@ export const experience: TimelineItem[] = [
         title: 'Data Analyst',
         content: (
             <p>
-                • Data Analyst with four years of hands-on experience in interpreting and analyzing data for driving business solutions.
+              - Data Analyst with four years of hands-on experience in interpreting and analyzing data for driving business solutions.
                 <br></br>
-                • My role involves doing Descriptive and Diagnostic analysis, identifying Key Performance indicators and producing Data visualizations using Tableau and PowerBI to present the intricate findings to the stakeholders.
+              - My role involves doing Descriptive and Diagnostic analysis, identifying Key Performance indicators and producing Data visualizations using Tableau and PowerBI to present the intricate findings to the stakeholders.
 
             </p>
         ),
