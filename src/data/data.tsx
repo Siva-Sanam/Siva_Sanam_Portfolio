@@ -74,7 +74,7 @@ export const heroData: Hero = {
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
                 I'm a Tampa based <strong className="text-stone-100">Data Analyst</strong>, currently pursuing my masters
-                at <strong className="text-stone-100">University of South Florida</strong> who aspires to become a future Data Engineer upon my graduation.
+                at <strong className="text-stone-100">University of South Florida</strong> who aspires to become a future <strong className="text-stone-100">Data Scientist/Data Engineer</strong> upon my graduation.
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
                 In my free time, you can catch me playing cricket and working out.
@@ -101,13 +101,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
     profileImageSrc: profilepic,
-    description: `I am an aspiring Data Scientist `,
+    description: `I am an aspiring Data Scientist/DataEngineer.`,
     aboutItems: [
         {label: 'Location', text: 'Tampa, FL', Icon: MapIcon},
         {label: 'Age', text: '25', Icon: CalendarIcon},
         {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
-        {label: 'Interests', text: 'Playing cricket,working out', Icon: SparklesIcon},
-        {label: 'Study', text: 'University of South Florida', Icon: AcademicCapIcon},
+        {label: 'Interests', text: 'Playing cricket,working out.', Icon: SparklesIcon},
+        {label: 'Study', text: 'University of South Florida,USA', Icon: AcademicCapIcon},
         {label: 'Degree', text: 'Masters in Business Analytics and Information Systems', Icon: BookOpenIcon},
     ],
 };
@@ -117,19 +117,19 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
     {
-        name: 'Spoken languages',
+        name: 'Data Science',
         skills: [
             {
-                name: 'English',
-                level: 10,
+                name: 'Jupyterlab',
+                level: 9,
             },
             {
-                name: 'Telugu',
-                level: 10,
+                name: 'Apache Spark ML',
+                level: 6,
             },
             {
-                name: 'Hindi',
-                level: 8,
+                name: 'Data Bricks',
+                level: 5,
             },
         ],
     },
@@ -172,19 +172,19 @@ export const skills: SkillGroup[] = [
         ],
     },
     {
-        name: 'Data Science',
+        name: 'Spoken Languages',
         skills: [
             {
-                name: 'Jupyterlab',
-                level: 9,
+                name: 'English',
+                level: 10,
             },
             {
-                name: 'Apache Spark ML',
-                level: 6,
+                name: 'Telugu',
+                level: 10,
             },
             {
-                name: 'Data Bricks',
-                level: 5,
+                name: 'Hindi',
+                level: 8,
             },
         ],
     },
@@ -221,7 +221,7 @@ export const portfolioItems: PortfolioItem[] = [
     {
         title: 'GoDrive Car Rentals',
         description: 'An interactive website where customers can rent their favourite car',
-        url: 'https://reactresume.com',
+        url: 'http://myweb.usf.edu/~cv628/ASSIGNMENT-3/index.html',
         image: porfolioImage5,
     },
 ];
@@ -231,8 +231,8 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
     {
-        date: 'May 2025',
-        location: 'University of South Florida',
+        date: 'Aug 2023-May 2025',
+        location: 'University of South Florida,USA',
         title: 'Masters in Business Analystics and Information Sytems',
         content: <p>I have learnt a lot of new Machine learning concepts which significantly improved my capabilities in field of DataScience.</p>,
     },
@@ -246,14 +246,15 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
     {
-        date: '     July 2019 - June 2023',
+        date: 'July 2019 - June 2023',
         location: 'Larsen & Toubro Ltd',
         title: 'Data Analyst',
         content: (
             <p>
-                Data Analyst with four years of hands-on experience in interpreting and analyzing data for driving business solutions.
+                • Data Analyst with four years of hands-on experience in interpreting and analyzing data for driving business solutions.
                 <br></br>
-                My role involves doing descriptive and diagnostic analysis, identifying Key Performance indicators and producing Data visualizations using Tableau to present the intricate findings to the stakeholders.
+                • My role involves doing Descriptive and Diagnostic analysis, identifying Key Performance indicators and producing Data visualizations using Tableau and PowerBI to present the intricate findings to the stakeholders.
+
             </p>
         ),
     },
