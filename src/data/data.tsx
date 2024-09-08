@@ -228,7 +228,7 @@ export const portfolioItems: PortfolioItem[] = [
         title: 'Music Stores Sales SQL Analysis',
         description: 'a SQL-based relational database for a music store, optimizing performance and generating sales analytics.',
         url: 'https://github.com/Siva-Sanam/Data_Analysis_SQL_Project_Music_Store_Sales',
-        image: porfolioImage6,
+        image: porfolioImage1,
     },
 ];
 
