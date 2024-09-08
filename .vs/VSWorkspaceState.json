@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Sections",
+    "\\src\\components\\Sections\\Resume",
+    "\\src\\data",
+    "\\src\\hooks",
+    "\\src\\images",
+    "\\src\\images\\portfolio"
+  ],
+  "PreviewInSolutionExplorer": false
+}

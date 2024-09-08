@@ -1,0 +1,35 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-portfolio-5",
+      "appliesTo": "src/images/portfolio/portfolio-5.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-portfolio-1",
+      "appliesTo": "src/images/portfolio/portfolio-1.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-portfolio-2",
+      "appliesTo": "src/images/portfolio/portfolio-2.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-portfolio-3",
+      "appliesTo": "src/images/portfolio/portfolio-3.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-portfolio-4",
+      "appliesTo": "src/images/portfolio/portfolio-4.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-portfolio-6",
+      "appliesTo": "src/images/portfolio/portfolio-6.jpg",
+      "type": "launch"
+    }
+  ]
+}

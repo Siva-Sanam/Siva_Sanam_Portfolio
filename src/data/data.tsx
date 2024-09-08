@@ -73,7 +73,7 @@ export const heroData: Hero = {
     description: (
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                I'm a Tampa based <strong className="text-stone-100">Data Analyst</strong>, currently pursuing my masters
+                I'm a <strong className="text-stone-100">Data Enthusiast</strong>, currently pursuing my Masters
                 at <strong className="text-stone-100">University of South Florida</strong> who aspires to become a future <strong className="text-stone-100">Data Scientist/Data Engineer</strong> upon my graduation.
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -101,14 +101,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
     profileImageSrc: profilepic,
-    description: `I am an aspiring Data Scientist/DataEngineer.`,
+    description: `I have professional experience of 4 years in the field of Data Analytics. I am driven by my passion for Data Analytics specializing in E Commerce and Banking domains.I strive to be a catalyst in developing innovative solutions that have a lasting impact on society using my Data Analytical skills. I enjoy collaborating with individuals who are passionate about navigating the vast world of data to drive innovation.`,
     aboutItems: [
         {label: 'Location', text: 'Tampa, FL', Icon: MapIcon},
         {label: 'Age', text: '25', Icon: CalendarIcon},
         {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
         {label: 'Interests', text: 'Playing cricket,working out.', Icon: SparklesIcon},
         {label: 'Study', text: 'University of South Florida,USA', Icon: AcademicCapIcon},
-        {label: 'Degree', text: 'Masters in Business Analytics and Information Systems', Icon: BookOpenIcon},
+        {label: 'Degree', text: 'Masters in Artificial Intelligence and Business Analytics', Icon: BookOpenIcon},
     ],
 };
 
@@ -199,7 +199,7 @@ export const portfolioItems: PortfolioItem[] = [
         description: 'A ML model to predict user purchase intention from their Online session',
         url: 'https://github.com/Siva-Sanam/Online-Shopping-Purchase-Intention_ML_Model',
         image: porfolioImage1,
-    },
+    },  
     {
         title: 'Bank Prospective Customer Selection Model',
         description: 'A ML model which predicts whether customer is interested in taking certain Bank offers',
@@ -224,6 +224,12 @@ export const portfolioItems: PortfolioItem[] = [
         url: 'http://myweb.usf.edu/~cv628/ASSIGNMENT-3/index.html',
         image: porfolioImage5,
     },
+    {
+        title: 'Music Stores Sales SQL Analysis',
+        description: 'a SQL-based relational database for a music store, optimizing performance and generating sales analytics.',
+        url: 'https://github.com/Siva-Sanam/Data_Analysis_SQL_Project_Music_Store_Sales',
+        image: porfolioImage6,
+    },
 ];
 
 /**
@@ -231,10 +237,10 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
     {
-        date: 'Aug 2023-May 2025',
+        date: 'Aug 2023-April 2025',
         location: 'University of South Florida,USA',
-        title: 'Masters in Business Analystics and Information Sytems',
-        content: <p>I have learnt a lot of new Machine learning concepts which significantly improved my capabilities in field of DataScience.</p>,
+        title: 'Masters in Artificial Intelligence and Business Analystics',
+        content: <p>I have gained extensive knowledge in Machine Learning, which has significantly enhanced my problem-solving capabilities in the field of Data Science. Additionally, I have developed a strong foundation in database concepts, big data technologies, data warehousing, and cloud computing, equipping me to handle large-scale data processing and storage challenges effectively.</p>,
     },
     /*{
       date: 'March 2003',
@@ -246,15 +252,34 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
     {
+        date: 'July 2024 - Present',
+        location: 'USF - Office Of Decision Support',
+        title: 'Graduate Assistant Data Analyst',
+        content: (
+            <p>
+                • Developed interactive dashboards in Power BI, visualizing over 20 key metrics for the USF College Accountability Project, enhancing data-driven decision-making across multiple departments.
+                <br></br>
+                • Streamlined data ingestion processes using Microsoft Fabric, reducing data load times from the Student Information Database (SID) by 30%, ensuring real-time access to critical student metrics.
+                <br></br>
+                • Conducted comprehensive data cleaning and improved data accuracy by 25% in SAAS EG and Excel, leading to more reliable insights for student success research analytics.
+                <br></br>
+                • Collaborated with cross-functional teams to analyze and query large datasets, enhancing data retrieval efficiency from SID by 40% for research purposes.
+            </p>
+        ),
+    },
+    {
         date: 'July 2019 - June 2023',
         location: 'Larsen & Toubro Ltd',
         title: 'Data Analyst',
         content: (
             <p>
-              - Data Analyst with four years of hands-on experience in interpreting and analyzing data for driving business solutions.
+                • Data Analyst with 4 years of experience in SQL, Power BI, and Tableau, delivering data-driven insights and visualizations that improved business growth by 20% and enhanced operational efficiency by 30%.
                 <br></br>
-              - My role involves doing Descriptive and Diagnostic analysis, identifying Key Performance indicators and producing Data visualizations using Tableau and PowerBI to present the intricate findings to the stakeholders.
-
+                • Formulated and executed SQL-based analyses for diverse business challenges; identified trends and implemented data-driven strategies, reducing customer churn by 16% and enriching customer lifetime value by 20%.
+                <br></br>
+                • Engineered advanced KPI dashboards by analyzing extensive datasets; optimized workflow efficiency, diminishing report preparation time by 20% and generating an additional $90k in revenue for stakeholders.
+                <br></br>
+                • Led development of user-friendly visualizations with Power BI and Tableau, presenting complex findings to teams and decision-makers, and accelerating decision-making speed by 30%.
             </p>
         ),
     },
