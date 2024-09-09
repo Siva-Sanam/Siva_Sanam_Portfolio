@@ -74,7 +74,7 @@ export const heroData: Hero = {
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
                 I'm a <strong className="text-stone-100">Data Enthusiast</strong>, currently pursuing my Masters
-                at <strong className="text-stone-100">University of South Florida</strong> who aspires to become a future <strong className="text-stone-100">Data Scientist/Data Engineer</strong> upon my graduation.
+                at <strong className="text-stone-100">University of South Florida</strong> who aspires to become a <strong className="text-stone-100">Data Scientist/Data Engineer</strong> upon my graduation.
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
                 In my free time, you can catch me playing cricket and working out.
@@ -126,6 +126,10 @@ export const skills: SkillGroup[] = [
             {
                 name: 'Apache Spark ML',
                 level: 6,
+            },
+            {
+                name: 'Microsoft Fabric',
+                level: 5,
             },
             {
                 name: 'Data Bricks',
@@ -257,13 +261,13 @@ export const experience: TimelineItem[] = [
         title: 'Graduate Assistant Data Analyst',
         content: (
             <p>
-                • Developed interactive dashboards in Power BI, visualizing over 20 key metrics for the USF College Accountability Project, enhancing data-driven decision-making across multiple departments.
+                - Developed interactive dashboards in Power BI, visualizing over 20 key metrics for the USF College Accountability Project, enhancing data-driven decision-making across multiple departments.
                 <br></br>
-                • Streamlined data ingestion processes using Microsoft Fabric, reducing data load times from the Student Information Database (SID) by 30%, ensuring real-time access to critical student metrics.
+                - Streamlined data ingestion processes using Microsoft Fabric, reducing data load times from the Student Information Database (SID) by 30%, ensuring real-time access to critical student metrics.
                 <br></br>
-                • Conducted comprehensive data cleaning and improved data accuracy by 25% in SAAS EG and Excel, leading to more reliable insights for student success research analytics.
+                - Conducted comprehensive data cleaning and improved data accuracy by 25% in SAAS EG and Excel, leading to more reliable insights for student success research analytics.
                 <br></br>
-                • Collaborated with cross-functional teams to analyze and query large datasets, enhancing data retrieval efficiency from SID by 40% for research purposes.
+                - Collaborated with cross-functional teams to analyze and query large datasets, enhancing data retrieval efficiency from SID by 40% for research purposes.
             </p>
         ),
     },
@@ -273,13 +277,13 @@ export const experience: TimelineItem[] = [
         title: 'Data Analyst',
         content: (
             <p>
-                • Data Analyst with 4 years of experience in SQL, Power BI, and Tableau, delivering data-driven insights and visualizations that improved business growth by 20% and enhanced operational efficiency by 30%.
+                - Data Analyst with 4 years of experience in SQL, Power BI, and Tableau, delivering data-driven insights and visualizations that improved business growth by 20% and enhanced operational efficiency by 30%.
                 <br></br>
-                • Formulated and executed SQL-based analyses for diverse business challenges; identified trends and implemented data-driven strategies, reducing customer churn by 16% and enriching customer lifetime value by 20%.
+                - Formulated and executed SQL-based analyses for diverse business challenges; identified trends and implemented data-driven strategies, reducing customer churn by 16% and enriching customer lifetime value by 20%.
                 <br></br>
-                • Engineered advanced KPI dashboards by analyzing extensive datasets; optimized workflow efficiency, diminishing report preparation time by 20% and generating an additional $90k in revenue for stakeholders.
+                - Engineered advanced KPI dashboards by analyzing extensive datasets; optimized workflow efficiency, diminishing report preparation time by 20% and generating an additional $90k in revenue for stakeholders.
                 <br></br>
-                • Led development of user-friendly visualizations with Power BI and Tableau, presenting complex findings to teams and decision-makers, and accelerating decision-making speed by 30%.
+                - Led development of user-friendly visualizations with Power BI and Tableau, presenting complex findings to teams and decision-makers, and accelerating decision-making speed by 30%.
             </p>
         ),
     },
