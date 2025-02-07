@@ -20,10 +20,10 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-/*import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+/*import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';*/
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -104,7 +104,7 @@ export const aboutData: About = {
     description: `I have professional experience of 4 years in the field of Data Analytics. I am driven by my passion for Data Analytics specializing in E Commerce and Banking domains.I strive to be a catalyst in developing innovative solutions that have a lasting impact on society using my Data Analytical skills. I enjoy collaborating with individuals who are passionate about navigating the vast world of data to drive innovation.`,
     aboutItems: [
         {label: 'Location', text: 'Tampa, FL', Icon: MapIcon},
-        {label: 'Age', text: '25', Icon: CalendarIcon},
+        {label: 'Age', text: '26', Icon: CalendarIcon},
         {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
         {label: 'Interests', text: 'Playing cricket,working out.', Icon: SparklesIcon},
         {label: 'Study', text: 'University of South Florida,USA', Icon: AcademicCapIcon},
@@ -203,12 +203,18 @@ export const portfolioItems: PortfolioItem[] = [
         description: 'A ML model to predict user purchase intention from their Online session',
         url: 'https://github.com/Siva-Sanam/Online-Shopping-Purchase-Intention_ML_Model',
         image: porfolioImage1,
-    },  
+    },   
     {
         title: 'Bank Prospective Customer Selection Model',
         description: 'A ML model which predicts whether customer is interested in taking certain Bank offers',
         url: 'https://github.com/Siva-Sanam/Bank-Prospective-Customer-Selection-ML-Model',
         image: porfolioImage2,
+    },
+    {
+        title: 'Amazon Sales Datawarehouse Design',
+        description: 'Amazon Sales Data Warehouse Design and Analysis with Oracle SQL',
+        url: 'https://github.com/Siva-Sanam/Amazon-Sales-Datawarehouse-Design/tree/master',
+        image: porfolioImage9, 
     },
     {
         title: 'E Commerce Sales Dashboard Analysis',
@@ -233,6 +239,18 @@ export const portfolioItems: PortfolioItem[] = [
         description: 'MySQL analysis to optimize data from an online music store.',
         url: 'https://github.com/Siva-Sanam/Data_Analysis_SQL_Project_Music_Store_Sales',
         image: porfolioImage6,
+    },
+    {
+        title: 'Cloud Architecture Design',
+        description: 'Designed a scalable and cost-effective AWS cloud architecture for an e-commerce business, optimizing performance, security, and resource utilization.',
+        url: 'https://github.com/Siva-Sanam/Cloud-Architecture-Design',
+        image: porfolioImage7,
+    },
+    {
+        title: 'NYC Taxi Microsoft Fabric ETL Anlaysis',
+        description: 'Automating the full data lifecycle for NYC taxi data, from ingestion to visualization, using Microsoft Fabric data pipelines and flows for automated reporting.',
+        url: 'https://github.com/malvik01/Fabric-NYC-Taxi-Data-Project/wiki/01.-Code-used-in-Pipeline:-pl_stg_processing_nyctaxi',
+        image: porfolioImage8,
     },
 ];
 
@@ -274,16 +292,16 @@ export const experience: TimelineItem[] = [
     {
         date: 'July 2019 - June 2023',
         location: 'Larsen & Toubro Ltd',
-        title: 'Data Analyst',
+        title: 'Business Intelligence Engineer',
         content: (
             <p>
-                - Data Analyst with 4 years of experience in SQL, Power BI, and Tableau, delivering data-driven insights and visualizations that improved business growth by 20% and enhanced operational efficiency by 30%.
+                - Engineered scalable ETL pipelines and optimized SQL-based data transformations to support business intelligence solutions, improving data processing efficiency by 30% and enabling faster decision-making.
                 <br></br>
-                - Formulated and executed SQL-based analyses for diverse business challenges; identified trends and implemented data-driven strategies, reducing customer churn by 16% and enriching customer lifetime value by 20%.
+                - Developed and deployed automated BI solutions, reducing manual report preparation time by 20 hours weekly and driving an additional $30K in annual stakeholder revenue.
                 <br></br>
-                - Engineered advanced KPI dashboards by analyzing extensive datasets; optimized workflow efficiency, diminishing report preparation time by 20% and generating an additional $90k in revenue for stakeholders.
+                - Designed and maintained KPI dashboards in Power BI and Tableau, providing real-time insights and improving operational efficiency across business units by 20%.
                 <br></br>
-                - Led development of user-friendly visualizations with Power BI and Tableau, presenting complex findings to teams and decision-makers, and accelerating decision-making speed by 30%.
+                - Architected data models and warehouses, ensuring seamless integration of structured and unstructured data, which led to a 16% reduction in customer churn and a 20% increase in customer lifetime value.
             </p>
         ),
     },
